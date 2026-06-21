@@ -21,7 +21,7 @@ function SolveDSA() {
             setSolution("");
 
             const response = await axios.post(
-                "http://localhost:5000/api/chat",
+                "https://sigma-gpt-backend-oh77.onrender.com/api/chat",
                 {
                     message: `
 You are Solve DSA mode.

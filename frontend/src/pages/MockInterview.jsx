@@ -24,7 +24,7 @@ function MockInterview() {
             setFeedback("");
 
             const response = await axios.post(
-                "http://localhost:5000/api/chat",
+                "https://sigma-gpt-backend-oh77.onrender.com/api/chat",
                 {
                     message: `
 You are an interviewer.
@@ -63,7 +63,7 @@ Ask ONLY ONE interview question.
             setLoading(true);
 
             const response = await axios.post(
-                "http://localhost:5000/api/chat",
+                "https://sigma-gpt-backend-oh77.onrender.com/api/chat",
                 {
                     message: `
 You are an interviewer.

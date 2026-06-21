@@ -25,7 +25,7 @@ function ResumeAnalyzer() {
             setAnalysis("");
 
             const response = await axios.post(
-                "http://localhost:5000/api/resume/analyze",
+                "https://sigma-gpt-backend-oh77.onrender.com/api/resume/analyze",
                 formData,
                 {
                     headers: {

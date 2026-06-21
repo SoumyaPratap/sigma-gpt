@@ -109,7 +109,7 @@
 //         try {
 
 //             const response = await axios.post(
-//                 "http://localhost:5000/api/chat",
+//                 "https://sigma-gpt-backend-oh77.onrender.com/api/chat",
 //                 {
 //                     message: currentInput,
 //                 }
@@ -687,7 +687,7 @@ const handleDeleteChat = (id) => {
 
             const response =
                 await axios.post(
-                    "http://localhost:5000/api/chat",
+                   "https://sigma-gpt-backend-oh77.onrender.com/api/chat"
                     {
                         message,
                     }

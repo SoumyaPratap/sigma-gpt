@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/chats";
+const API_URL = "https://sigma-gpt-backend-oh77.onrender.com/api/chats";
 
 export const getChats = async () => {
     const token = localStorage.getItem("token");
