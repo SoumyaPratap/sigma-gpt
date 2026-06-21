@@ -35,14 +35,26 @@ function Signup() {
 
             navigate("/");
 
-        } catch (error) {
+        } 
+        // catch (error) {
 
-            alert(
-                error.response?.data
-                    ?.message ||
-                    "Signup Failed"
-            );
-        }
+        //     alert(
+        //         error.response?.data
+        //             ?.message ||
+        //             "Signup Failed"
+        //     );
+        // }
+
+        catch (error) {
+    console.log("FULL ERROR:", error);
+    console.log("RESPONSE:", error.response);
+
+    alert(
+        error.response?.data?.message ||
+        error.message ||
+        "Signup Failed"
+    );
+}
     };
 
     return (
