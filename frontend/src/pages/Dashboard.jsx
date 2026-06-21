@@ -687,7 +687,7 @@ const handleDeleteChat = (id) => {
 
             const response =
                 await axios.post(
-                   "https://sigma-gpt-backend-oh77.onrender.com/api/chat"
+                   "https://sigma-gpt-backend-oh77.onrender.com/api/chat",
                     {
                         message,
                     }
