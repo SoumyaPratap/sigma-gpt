@@ -21,7 +21,7 @@ function Signup() {
 
             const response =
                 await axios.post(
-+                   "https://sigma-gpt-backend-oh77.onrender.com/api/auth/signup",
+                  "https://sigma-gpt-backend-oh77.onrender.com/api/auth/signup",
                     {
                         name,
                         email,
